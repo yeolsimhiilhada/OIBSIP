@@ -1,0 +1,148 @@
+@font-face {
+  font-family: "Tan Pearl";
+  src: url("font-style/TAN-PEARL.woff2") format("woff2"),
+    url("font-styles/TAN-PEARL.woff") format("woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+.text-overlay {
+  font-size: 50px;
+  position: absolute;
+  top: 89%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-clip: padding-box;
+}
+.text-bold {
+  font-family: "Tan Pearl", sans-serif;
+  font-style: italic;
+  letter-spacing: 23px;
+  word-spacing: 61px;
+  filter: brightness(390%);
+}
+.text-small {
+  font-family: "Tan Pearl", sans-serif;
+  font-size: 13px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+  filter: brightness(190%);
+}
+
+.hero_bg_image_wrapper {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.hero_bg_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.bg_image_overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 65%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
+.hero_main {
+  border-top: 0.01px solid #8c8c8c;
+  border-bottom: 0.01px solid #8c8c8c;
+  padding: 40px 80px 45px 70px;
+  justify-content: center;
+  background-color: #e9e9e9;
+  color: #000;
+}
+.hero_text_bold {
+  color: #000;
+  font-family: "Tan Pearl", sans-serif;
+  font-weight: 900;
+  font-size: 38px;
+  padding-bottom: 36px;
+}
+.hero_p {
+  font-family: "Tan Pearl", sans-serif;
+  font-size: 12.6px;
+  font-style: oblique;
+  text-align: justify;
+  line-height: 2.5;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-weight: 700;
+}
+.grid-container {
+  margin-top: 30px;
+  margin-left: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  gap: 10px;
+}
+
+.grid-item {
+  width: 200px;
+  height: 200px;
+  padding: 0;
+}
+
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.quotes {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 60px;
+  padding: 40px 71px 20px 10px;
+}
+.heading {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Tan Pearl", sans-serif;
+}
+.bullet-list {
+  list-style-type: disc;
+  margin-left: 35px;
+  margin-top: 45px;
+  font-family: "Tan Pearl", sans-serif;
+  letter-spacing: 2px;
+  font-style: italic;
+  font-size: 13px;
+  line-height: 41px;
+}
+.last_quote {
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 900;
+  font-style: normal;
+  list-style-type: none;
+  letter-spacing: 7px;
+  word-spacing: 3px;
+}
+.footer {
+  text-align: center;
+  border-top: 0.01px solid #ffffffc1;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.footer-text {
+  padding-top: 20px;
+  font-family: "Tan Pearl", sans-serif;
+  font-size: 10px;
+}
