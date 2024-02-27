@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: Helvetica, "Libre Franklin", sans-serif;
+  background-color: #fff4fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-image: linear-gradient(90deg, #fff7ad, rgb(255, 215, 244));
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #844e6b;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  max-width: 100%;
+  margin: 0 auto;
+}
+.form-container {
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: #0a0909;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 15px 0;
+  margin-bottom: 10px;
+  border: 1px solid #d0c3f1;
+  border-radius: 4px;
+  align-content: center;
+}
+
+#register-email,
+#register-password,
+#login-email,
+#login-password {
+  padding-left: 5px;
+}
+button {
+  padding: 12px 20px;
+  background-color: #830c4f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #830c4f;
+}
+
+.message {
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.message.success {
+  background-color: #7eb66a;
+}
+
+.message.error {
+  background-color: #d14c59;
+}
